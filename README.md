@@ -1,8 +1,53 @@
-# Greenhouse-Gas-Emission-Prediction
+🌍 Greenhouse-Gas-Emission-Prediction
+📅 Week 1: Data Preparation & Modeling
+This project uses 2010–2016 U.S. supply chain emission data to build a regression model that predicts Supply Chain Emission Factors with Margins based on industry, substance, and data quality metrics.
 
-🌍 Greenhouse Gas Emission Prediction Project
-📅 Week 1: Data Loading, Cleaning, and Visualization
-This project aims to explore, clean, and visualize supply chain emission data for U.S. industries and commodities. The goal is to build a foundation for greenhouse gas (GHG) emission prediction models in the upcoming stages.
+🔧 Key Steps
+Data Cleaning: Removed irrelevant columns and null values
+
+Feature Encoding: One-hot encoded categorical features (Industry Name, Substance, Unit)
+
+Model Saving: Exported best-performing model as .pkl using joblib
+
+🎯 Output
+Cleaned dataset and trained ML model
+
+📅 Week 2: Model Tuning & Evaluation
+In Week 2, we focused on improving model performance and robustness by optimizing parameters and conducting deeper evaluation.
+
+⚙️ Key Steps
+Train-Test Split: Created test and validation sets using train_test_split
+
+Hyperparameter Tuning: Used GridSearchCV to optimize DecisionTreeRegressor parameters
+
+Evaluation Metrics: Compared models using:
+
+-R² Score
+
+-Mean Absolute Error (MAE)
+
+-Mean Squared Error (MSE)
+
+🧠 Best Performing Model
+DecisionTreeRegressor with tuned parameters showed improved accuracy
+
+Model was saved as .pkl for deployment
+
+📁 Output
+Evaluation report of models
+
+Optimized .pkl file for predictions
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### 📁 Dataset
